@@ -1,0 +1,1095 @@
+*{
+
+    margin: 0px; 
+    padding : 0px;
+    
+}
+
+.hid {
+    display : none ;
+}
+
+
+/* nav1-->  */
+.nav1{
+
+    height : 6vh;
+    width : 100%;
+
+    background-color: black;
+
+    display : flex ;
+
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sonyParent {
+
+  text-decoration: none ;
+
+  color : white ;
+  font-size : 20px;
+  font-weight: 900;
+}
+
+.sony {
+  padding-right : 2vw;
+    transition: all 0.05s ease-in ;
+}
+
+.sony:hover {
+
+   transform: scale(1.4);
+}
+
+
+/* nav 2 -->  */
+
+
+.PSlogo {
+
+    height : 7.5vh;
+    background-image: url("psLogo.jpg");
+
+    background-size: cover ;
+    width: 6.2vw;
+}
+
+.P {
+
+    height : 8vh; 
+    width: 6.5vw ;
+    display : flex ;
+    justify-content: center ;
+    align-items: center ;
+
+}
+
+.P:hover {
+
+    border: 2px solid rgb(60, 94, 229);
+}
+.nav2{
+
+    height : 10vh;
+    width :100%;
+    background-color: white  ;
+    display :flex ;
+top : 0;
+    position: sticky;
+}
+
+
+
+
+.nav2firstChild{
+
+    display: flex ;
+    width : 50vw;
+  
+    
+    justify-content: space-around;
+    align-items: center;
+    font-family :  Arial, Helvetica, sans-serif;
+
+    
+
+}
+
+.gamesclick {
+
+
+    display : none ; 
+}
+
+.nav2secChild{
+
+    width : 40vw;
+}
+
+.anc{
+
+    text-decoration: none;
+    font-family: rubic ;
+    font-weight : 900;
+}
+
+
+.el{
+    display : flex ;
+}
+
+.nav2thirdChild{
+ width : 10vw ;
+    display : flex ;
+    
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.signInParent{
+    text-decoration: none;
+    font-size: 3vh;
+    font-family: rubic;
+    font-weight : 900;
+
+
+}
+
+.signIn{
+color : white ;
+    background-color: rgb(32, 80, 203) ;
+    height : 4vh;
+    width : 6vw;
+    display : flex ;
+    justify-content: center ;
+    align-items: center;
+    border-radius :5vh;
+
+}
+
+.helper {
+
+    display : flex;
+    justify-content: center;
+    align-items: center ;
+    height :  10vh;
+}
+.helper{
+
+    height : 4.5vh;
+    width:  13vh; 
+}
+
+.helper:hover {
+
+    border: 2px solid rgb(42, 95, 217) ;
+    border-radius : 20px;
+}
+
+.search{
+    height: 7vh;
+    width: 6vw ;
+    border-radius: 50%;
+    
+    display : flex ;
+    justify-content: center ;
+    align-items: center ;
+}
+
+.search:hover {
+
+    background-color: rgba(0,0,0,0.5);
+
+    color : white ;
+    font-size : 3vh;
+}
+
+
+.hiddenSearchbar{
+
+
+    display : flex ;
+
+    justify-content: flex-end;
+
+    align-items: center;
+
+    height : 8vh;
+
+    /* display : none ;  */
+
+    
+}
+
+.TypeToSearch {
+
+
+    height: 80%;
+
+    width: 30%;
+
+    font-size : 4vh;
+
+
+ transition: all 0s ease-in;
+    
+
+}
+
+.TypeToSearch:hover {
+
+
+    transform: scale(1.03);
+}
+
+.search2 {
+
+
+    width: 7%;
+
+    height : 80%;
+    font-size : 4vh;
+
+    background-color: rgb(51, 88, 234);
+
+    color : white ;
+
+    border: none ;
+
+    margin-right : 1vw;
+    margin-left : 0.3vw;
+
+
+}
+
+
+.search2:hover 
+
+{
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,0.6);
+
+
+}
+
+
+.hiddenDIVs {
+
+    display : flex ;
+
+    justify-content: center ;
+    align-items: center ;
+
+    height : 25vh;
+    width: 100%;
+
+    display : none ;
+   
+}
+
+
+.hide{
+    visibility: hidden;
+}
+
+
+.hd1 {
+
+  
+margin-left: 25vw;
+   height : 90%;
+
+   width: 50%;
+
+   border: 1px solid black;
+
+  display : flex ;
+
+  justify-content: center ;
+
+  align-items: center ;
+
+  justify-content: space-around;
+
+  border : none ;
+
+
+}
+
+.hd1el{
+
+    
+    height : 90%;
+
+    border: 1px solid black ;
+border: none ;
+    width: 17%;
+
+    
+
+
+
+}
+
+.hd1el:hover {
+    box-shadow : 2px 1px 4px 2px rgba(0,0,0 , 0.4);
+
+    
+
+
+}
+
+.hd1part1{
+
+
+    display : flex ;
+
+    flex-direction: column;
+    justify-content: center;
+    
+    
+   
+}
+.hd1part1Child1{
+
+    height : 90%;
+    background-image: url("ps5_icon.png");
+    background-size : cover;
+
+    
+}
+
+.hd1part1Child2 {
+
+    color :rgb(29, 125, 210);
+    font-weight: 800;
+}
+
+.hd1part2{
+
+
+    display : flex ;
+
+    flex-direction: column;
+    justify-content: center;
+    
+    
+   
+}
+.hd1part2Child1{
+
+    height : 90%;
+    background-image: url("ps4_icon.jpg");
+    background-size : cover;
+
+    
+}
+
+.hd1part2Child2 {
+
+    color :rgb(29, 125, 210);
+    font-weight: 800;
+}
+
+
+
+.hd1part3{
+
+
+    display : flex ;
+
+    flex-direction: column;
+    justify-content: center;
+    
+    
+   
+}
+.hd1part3Child1{
+
+    height : 90%;
+    background-image: url("ps_plus.png");
+    background-size : cover;
+
+    
+}
+
+.hd1part3Child2 {
+
+    color :rgb(29, 125, 210);
+    font-weight: 800;
+}
+
+
+
+.hd1part4{
+
+
+    display : flex ;
+
+    flex-direction: column;
+    justify-content: center;
+    
+    
+   
+}
+.hd1part4Child1{
+
+    height : 90%;
+    background-image: url("psVR_2.png");
+    background-size : cover;
+
+    
+}
+
+.hd1part4Child2 {
+
+    color :rgb(29, 125, 210);
+    font-weight: 800;
+}
+
+
+.hd1part5{
+
+
+    display : flex ;
+
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    
+    
+   
+}
+.hd1part5Child1{
+
+    height : 60%;
+    background-image: url("pc.jpg");
+    background-size : cover;
+
+    margin-top : 4vh;
+
+    
+
+    
+}
+
+.hd1part5Child2 {
+
+    color :rgb(29, 125, 210);
+    font-weight: 800;
+
+    
+}
+
+
+
+
+
+
+
+.hd2 {
+
+    display : none ; 
+ 
+ 
+ }
+
+ .hd3 {
+
+    display : none ; 
+ 
+ 
+ }
+
+ .hd4 {
+
+    display : none ; 
+ 
+ 
+ }
+
+ .hd5 {
+
+    display : none ; 
+ 
+ 
+ }
+
+ .hd6 {
+
+    display : none ; 
+ 
+ 
+ }
+
+ .hd7 {
+
+    display : none ; 
+ 
+ 
+ }
+
+ .hd8 {
+
+    display : none ; 
+ 
+ 
+ }
+
+
+/* content 1 --> */
+.content {
+
+    background-image: url("dragons-dogma-hero-desktop-01-en-09feb24.webp");
+    height : 80vh;
+    background-size : cover ;
+
+}
+
+
+.contentChild{
+
+    color : white ;
+    padding : 15vh;
+
+
+}
+
+.contentChild button{
+
+
+    background: none ;
+    color :white;
+    font-size : 3vh;
+    border-radius: 10vh;
+    margin-top :2vh;
+
+    
+
+}
+
+.contentChild button:hover {
+
+    height : 6vh;
+    width: 10vw;
+
+
+}
+
+.contentChild h1 {
+    padding-bottom: 2vh;
+
+    font-size : 8vh;
+}
+
+
+
+.line {
+
+    display : none ; 
+}
+
+
+
+.selectIMG{
+
+    display : flex ;
+height : 20vh;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+
+
+.img1{
+    margin-top: 2vh;
+    height : 100%;
+    width: 10%;
+    background-image: url("roninLittle.webp");
+    background-size: cover;
+
+    border-radius : 5vh;
+    
+    
+}
+
+.img2{
+    margin-top: 2vh;
+    height : 100%;
+    width: 10%;
+    background-image: url("dragonLittle.webp");
+    background-size: cover;
+
+    border-radius : 5vh;
+
+    
+    
+}
+
+.img3{
+    margin-top: 2vh;
+    height : 100%;
+    width: 10%;
+    background-image: url("mlb.webp");
+    background-size: cover;
+
+    border-radius : 5vh;
+
+    
+    
+}
+
+.img4{
+    margin-top: 2vh;
+    height : 100%;
+    width: 10%;
+    background-image: url("hello.webp");
+    background-size: cover;
+
+    border-radius : 5vh;
+
+    
+    
+}
+
+.img5{
+    margin-top: 2vh;
+    height : 100%;
+    width: 10%;
+    background-image: url("finalFantasy.webp");
+    background-size: cover;
+
+    border-radius : 5vh;
+
+    
+    
+}
+
+.img6{
+    margin-top: 2vh;
+    height : 100%;
+    width: 10%;
+    background-image: url("75%.webp");
+    background-size: cover;
+
+    border-radius : 5vh;
+
+    
+    
+}
+
+.img7{
+    margin-top: 2vh;
+    height : 100%;
+    width: 10%;
+    background-image: url("xo.webp");
+    background-size: cover;
+
+    border-radius : 5vh;
+
+    
+    
+}
+
+
+
+
+
+
+.el:hover{
+
+
+    box-shadow: 0 12px 5px 0 rgba(0,0,0,0.7);
+    margin-top : 0.5vh;
+}
+
+
+/* content 2 -->  */
+
+.content2{
+
+    display : flex ;
+
+    margin : 4vh;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+.para  p{
+
+
+    font-size: 8vh;
+    font-family : system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+}
+
+.para {
+
+   padding-top : 10vh;
+}
+
+
+.imgx {
+
+    height : 90vh;
+    width :150vh;
+    background-image: url("emulator.webp");
+    background-size: cover;
+
+    margin-top : 10vh;
+}
+
+
+
+.comment {
+
+    padding-top : 20vh;
+}
+
+.comment h3{
+
+    color :rgb(32, 92, 203);
+    font-size : 5vh;
+    font-weight: 100;
+    font-family: roboto serif;
+}
+
+.comment p {
+
+    color : rgba(0,0,0,0.7);
+}
+
+.comment button{
+
+    font-size : 2vh;
+    color : white ;
+    background-color: rgb(29, 125, 210);
+    border : none ;
+    border-radius : 2vh;
+    height : 7vh;
+    width : 8vw;
+    display : flex ;
+
+    justify-content: center;
+
+    align-items :center ;
+
+    transition: all 0.3s ease-in;
+}
+
+.comment button:hover {
+
+    transform: scale(1.1);
+    
+}
+
+
+
+
+.com {
+
+margin-top : 2vh;
+}
+
+
+.commentResp {
+
+   visibility: hidden;
+}
+
+
+
+
+
+
+
+
+@media (max-width : 999px){
+
+
+  .sony {
+
+    transition: all 0.05s ease-in;
+  }
+
+  .sony:hover {
+
+    transform: scale(1.4);
+  }
+ 
+   
+    /* nav2--> */
+    .nav2{
+    
+        height : 100vh;  
+        
+        position: unset;
+        
+    }
+
+
+        .nav2firstChild{
+    
+            flex-direction: column;
+            height :100vh;
+            justify-content: space-evenly;
+        }
+
+       .P {
+
+        width: 24vw;
+
+        
+       }
+
+       .PSlogo{
+
+        width: 23vw;
+        
+       }
+    
+    
+      
+       .gamesParent {
+
+
+        display : flex ; 
+ 
+        flex-direction: column ;
+        align-items: center;
+        
+        
+
+        
+
+        width : 25vw ;
+
+       }
+       
+    
+    
+     
+    
+        .nav2secChild{
+    
+            display: none ;
+        }
+
+        .nav2thirdChild{
+            width : 40vh;
+            
+        }
+
+        .signIn{
+            
+          border-radius: none  ;
+          width : 30vw;
+          height : 95%;
+          
+        }
+
+        .helper:hover  {
+
+            border-radius : none ;
+            width:31vw;
+
+
+            
+          
+        }
+
+
+      .search:hover{
+
+        width: 17vw;
+        height : 7vh;
+
+        color : white ;
+      }
+
+
+      .hiddenSearchbar {
+
+
+
+        display : none ; 
+      }
+
+
+        .nav2thirdChild{
+
+            display : flex ;
+
+            align-items: center ;
+        }
+
+        .search {
+
+            font-size : 5vh;
+        }
+
+
+        .nav2{
+
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            
+         }
+
+
+       .hiddenDIVs{
+
+        display : none;
+       }
+
+       
+
+
+        .content{
+
+            margin-top :3vh;
+            height :20vh;
+
+        }
+
+   
+
+    
+
+      
+  
+    
+         
+
+         .line {
+            height : 20vh;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight : 900;
+            display : flex ;
+            flex-direction: column;
+            justify-content: center ;
+            align-items: center;
+            justify-content: space-evenly;
+
+
+            color : white;
+            
+            background-image: url("rise-of-the-ronin-hero-banner-desktop-01-en-30mar23.webp");
+            background-size: cover;
+            
+           
+
+
+          
+         }
+
+      
+         .lineChild{
+
+            display : flex ;
+            flex-direction: column;
+            align-items: center;
+         }
+    
+      
+         .explore {
+
+          color : white ;
+          border : 1px solid white ;
+          border-radius: 5px;
+          font-size: 15px;
+          background: none ;
+
+          transition: all 0.2s ease-in;
+         }
+
+         .explore:hover {
+
+
+            transform: scale(1.1);
+         }
+
+
+         .contentChild{
+
+
+            display : none ;
+         }
+
+
+         .selectIMG {
+
+            display : none ; 
+         }
+
+         .content2 {
+            flex-direction : column;
+         }
+
+
+         .imgx{
+height : 20vh;
+width : 65vw;
+           background-image: url("emulator.webp");
+           background-size: cover;
+
+            margin-right : 50vw;
+
+            transform: translateY(-10vh);
+         }
+
+
+         .comment {
+
+            display : none ;
+         }
+
+
+     
+         .commentResp
+         {
+
+
+            visibility: visible;
+            display : flex ;
+            flex-direction: column;
+
+            justify-content: center;
+            align-items: center ;
+
+            height : 30vh;
+            justify-content: space-evenly;
+         }
+
+
+         
+.commentResp h3{
+
+    color :rgb(32, 92, 203);
+    font-size : 5vh;
+    font-weight: 100;
+    font-family: roboto serif;
+}
+
+.commentResp p {
+
+    color : rgba(0,0,0,0.7);
+   
+}
+
+.commentResp button{
+
+    font-size : 2vh;
+    color : white ;
+    background-color: rgb(29, 125, 210);
+    border : none ;
+    border-radius : 2vh;
+    height : 7vh;
+    width : 40vw;
+    display : flex ;
+
+    justify-content: center;
+
+    align-items :center ;
+
+    transition: all 0.2s ease-in;
+}
+
+
+.commentResp button:hover {
+
+    transform: scale(1.1);
+}
+
+        
+    }
+
+
+    
